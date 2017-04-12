@@ -1,0 +1,27 @@
+{
+  "name": "basic-mmo-phaser",
+  "version": "1.0.0",
+  "description": "Multiplayer online game made with Node.js and Socket.io ",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/David-Mavrodiev/Penguin-Battles.git"
+  },
+  "keywords": [
+    "Multiplayer",
+    "game",
+    "Node.js",
+    "socket.io"
+  ],
+  "author": "David Mavrodiev",
+  "license": "MIT",
+  "homepage": "https://github.com/David-Mavrodiev/Penguin-Battles.git",
+  "dependencies": {
+    "express": "^4.15.2",
+    "socket.io": "^1.7.3"
+  }
+}

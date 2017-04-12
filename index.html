@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <script src="/socket.io/socket.io.js"></script>
+        <script type="text/javascript" src="js/phaser.min.js"></script>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+        <title>Penguins battle</title>
+        <style>
+            .statistics {
+                 background-color: grey;
+            }
+            #canvas-id {
+                overflow: hidden;
+                border: 2px solid darkslateblue;
+                padding: 0px 0px; margin: 0px 0px;
+            }
+            .chat {
+                background-color: grey;
+            }
+            .title{
+                text-align: center;
+            }
+            #canvas-wrapper{margin: 0px 0px; padding: 0px 30px;}
+        </style>
+    </head>
+    <body>
+        <div class="statistics col-sm-2 col-xs-12">
+            <h1 class="title">Test</h1>
+        </div>
+        <canvas class="col-lg-7 col-sm-6 col-xs-12" id="canvas-id"></canvas>
+        <div class="chat col-lg-3 visible-lg-inline">
+            <h1 class="title">Chat</h1>
+        </div>
+        <!-- Scripts -->
+        <script
+        src="https://code.jquery.com/jquery-3.2.1.min.js"
+        integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+        crossorigin="anonymous"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+        <script src="js/client.js" type="text/javascript"></script>
+        <script src="js/game.js" type="text/javascript"></script>
+    </body>
+</html>
