@@ -19,7 +19,7 @@ server.lastPlayderID = 0;
 server.lastEggID = 0;
 server.playersList = [];
 
-server.listen(process.env.PORT || 8081,function(){
+server.listen(process.env.PORT || 3001,function(){
     console.log('Listening on '+server.address().port);
 });
 

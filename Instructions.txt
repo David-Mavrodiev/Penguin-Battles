@@ -1,0 +1,1 @@
+To start server write "node server.js" in git bash.
